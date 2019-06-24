@@ -1,0 +1,10 @@
+{:add-songs        [{:artist "Kraftwerk"
+                     :title  "Autobahn"}
+                    {:artist "Haruomi Hosono"
+                     :title  "Bara To Yaju"}],
+ :add-playlists    [{:user-id  "1"
+                     :song-ids ["1" "2" "3" "5" "7"]}
+                    {:user-id  "2"
+                     :song-ids ["39"]}],
+ :remove-playlists ["1", "2"]
+ }
